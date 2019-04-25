@@ -2,7 +2,7 @@
 
 
 def reverse_each_word(string)
-  string = "Hello there, and how are you?".split(/ /)
+  string = ("Hello there, and how are you?").split(/ /)
   new_array = []
   string.each do |word|
     "#{word}.reverse"
