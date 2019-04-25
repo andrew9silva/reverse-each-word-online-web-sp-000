@@ -7,4 +7,3 @@ def reverse_each_word(string)
     return "#{word}.reverse"
   end
 end
-
